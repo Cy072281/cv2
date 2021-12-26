@@ -79,7 +79,7 @@ function removeChar(targetID){
 function alternateImg() {
     $("#skillx img").eq(iImg).removeClass("opaque");
     $("#skillx img").eq(iImg).removeClass("selected");
-    if (iImg == 12) {iImg=-1};
+    if (iImg == 15) {iImg=-1};
     $("#skillx img").eq(iImg + 1).addClass("opaque");
     $("#skillx img").eq(iImg + 1).removeClass("selected");
     iImg++;
